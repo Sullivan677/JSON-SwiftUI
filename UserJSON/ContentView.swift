@@ -1,16 +1,21 @@
-//
-//  ContentView.swift
-//  UserJSON
-//
-//  Created by Sullivan De carli on 17/12/2020.
-//
-
 import SwiftUI
-
 struct ContentView: View {
+    
+    @State var users: [User] = []
+
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        List(users) { user in
+          
+                Text(user.username)
+                    .font(.headline)
+                Text(user.name)
+                    .font(.subheadline)
+        }
+            .onAppear {
+                apiCall().getUsers { (users) in
+                    self.users = users
+                }
+            }
     }
 }
 

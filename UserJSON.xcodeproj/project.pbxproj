@@ -13,6 +13,8 @@
 		75A4B416258B6B87009734F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75A4B415258B6B87009734F4 /* Preview Assets.xcassets */; };
 		75A4B421258B6B88009734F4 /* UserJSONTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A4B420258B6B88009734F4 /* UserJSONTests.swift */; };
 		75A4B42C258B6B88009734F4 /* UserJSONUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A4B42B258B6B88009734F4 /* UserJSONUITests.swift */; };
+		75A4B43D258B6EE7009734F4 /* userModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A4B43C258B6EE7009734F4 /* userModel.swift */; };
+		75A4B442258B708D009734F4 /* userViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A4B441258B708D009734F4 /* userViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		75A4B427258B6B88009734F4 /* UserJSONUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UserJSONUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75A4B42B258B6B88009734F4 /* UserJSONUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserJSONUITests.swift; sourceTree = "<group>"; };
 		75A4B42D258B6B88009734F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75A4B43C258B6EE7009734F4 /* userModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userModel.swift; sourceTree = "<group>"; };
+		75A4B441258B708D009734F4 /* userViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			children = (
 				75A4B40E258B6B85009734F4 /* UserJSONApp.swift */,
 				75A4B410258B6B85009734F4 /* ContentView.swift */,
+				75A4B43C258B6EE7009734F4 /* userModel.swift */,
+				75A4B441258B708D009734F4 /* userViewModel.swift */,
 				75A4B412258B6B87009734F4 /* Assets.xcassets */,
 				75A4B417258B6B87009734F4 /* Info.plist */,
 				75A4B414258B6B87009734F4 /* Preview Content */,
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				75A4B411258B6B85009734F4 /* ContentView.swift in Sources */,
+				75A4B442258B708D009734F4 /* userViewModel.swift in Sources */,
 				75A4B40F258B6B85009734F4 /* UserJSONApp.swift in Sources */,
+				75A4B43D258B6EE7009734F4 /* userModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
